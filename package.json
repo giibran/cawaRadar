@@ -1,0 +1,25 @@
+{
+  "name": "cawa_radar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giibran/cawaRadar.git"
+  },
+  "keywords": [
+    "cawa"
+  ],
+  "author": "Gibran Arias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giibran/cawaRadar/issues"
+  },
+  "homepage": "https://github.com/giibran/cawaRadar#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
