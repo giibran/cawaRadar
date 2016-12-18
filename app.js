@@ -1,10 +1,12 @@
-const express = require('express');
-const app = express();
+sayHello = () => {
+  console.log('Que pedo?, puto');
+};
 
-app.get('/test', (request, response) => {
-  response.send('JAlO');
-});
+sayBye = () => {
+  console.log('de rato joto!');
+};
 
-app.listen(3000, () => {
-  console.log('Estamos al aire!');
-});
+module.exports = {
+  sayHello,
+  sayBye
+};
