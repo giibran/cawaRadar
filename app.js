@@ -1,12 +1,15 @@
-sayHello = () => {
-  console.log('Que pedo?, puto');
+const {insertTextToDB, getTextToDB} = require('./db');
+
+const insertText = (text) => {
+  insertTextToDB(text)
 };
 
-sayBye = () => {
-  console.log('de rato joto!');
+const getText = () => {
+  value = getTextToDB();
+  console.log('text: ' + value);
 };
 
 module.exports = {
-  sayHello,
-  sayBye
+  insertText,
+  getText
 };
